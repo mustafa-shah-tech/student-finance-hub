@@ -37,7 +37,7 @@
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
-    background: white;
+    background: var(--card-bg);
 }
 
 .scholarship-price {
@@ -63,7 +63,7 @@
     border: 1px solid var(--border-color);
     border-radius: 8px;
     margin-bottom: 12px;
-    background: white;
+    background: var(--card-bg);
     transition: transform 0.2s;
 }
 
@@ -278,7 +278,7 @@ input[type=range] {
     border: 1px solid var(--border-color);
     border-radius: 20px;
     padding: 6px 16px;
-    background: white;
+    background: var(--card-bg);
     color: var(--text-secondary);
     cursor: pointer;
     transition: all 0.2s;
