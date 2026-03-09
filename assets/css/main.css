@@ -333,3 +333,9 @@ html.dark-mode .form-check-input {
     background-color: var(--input-bg);
     border-color: var(--border-color);
 }
+@media (max-width: 991.98px) {
+  .btn-theme-toggle {
+    padding: 4px 8px;
+    font-size: 0.85rem;
+  }
+}
