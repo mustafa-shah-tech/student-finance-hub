@@ -392,23 +392,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         const scholarships = [
-            { id: 1, name: "HEC Need-Based Scholarship", funder: "Higher Education Commission (HEC)", amount: "PKR 40,000–80,000/year", type: "need-based", tags: ["hec", "need-based"], deadline: "2025-03-31", applyURL: "https://www.hec.gov.pk/english/scholarshipsgrants/Pages/NBS.aspx" },
-            { id: 2, name: "HEC Merit Scholarship (USEFP)", funder: "HEC / USEFP", amount: "PKR 20,000–50,000/semester", type: "merit", tags: ["hec", "merit"], deadline: "2025-04-15", applyURL: "https://www.hec.gov.pk" },
-            { id: 3, name: "Punjab Educational Endowment Fund (PEEF)", funder: "Government of Punjab", amount: "PKR 30,000–60,000/year", type: "need-based", tags: ["need-based"], deadline: "2025-05-01", applyURL: "https://peef.org.pk" },
-            { id: 4, name: "Sindh Education Foundation Scholarship", funder: "Government of Sindh", amount: "PKR 25,000–45,000/year", type: "need-based", tags: ["need-based"], deadline: "2025-04-30", applyURL: "https://sef.org.pk" },
-            { id: 5, name: "PM's Youth Business & Agriculture Loan", funder: "Government of Pakistan", amount: "PKR 100K–500K (loan)", type: "loan", tags: ["loan"], deadline: "2025-06-30", applyURL: "https://pmyp.gov.pk" },
-            { id: 6, name: "Aga Khan Foundation Scholarship", funder: "Aga Khan Foundation", amount: "Full tuition + stipend", type: "need-merit", tags: ["international", "need-merit"], deadline: "2025-03-15", applyURL: "https://www.akdn.org" },
-            { id: 7, name: "Ehsaas Undergraduate Scholarship", funder: "Government of Pakistan", amount: "PKR 20,000/sem + acc", type: "need-based", tags: ["need-based"], deadline: "2025-08-01", applyURL: "https://ehsaas.nadra.gov.pk" },
-            { id: 8, name: "Balochistan Educational Scholarship", funder: "Gov of Balochistan", amount: "PKR 30,000–70,000/year", type: "need-based", tags: ["need-based"], deadline: "2025-05-15", applyURL: "https://www.balochistan.gov.pk" },
-            { id: 9, name: "LUMS National Outreach Program", funder: "LUMS University", amount: "Full tuition + laptop", type: "need-based", tags: ["need-based"], deadline: "2025-02-28", applyURL: "https://nop.lums.edu.pk" },
-            { id: 10, name: "IBA Karachi Need-Based Scholarship", funder: "IBA Karachi", amount: "50–100% tuition waiver", type: "need-based", tags: ["need-based"], deadline: "2025-03-20", applyURL: "https://www.iba.edu.pk/financial_aid.php" },
-            { id: 11, name: "KPK Higher Education Scholarship", funder: "Government of KPK", amount: "PKR 30,000–60,000/year", type: "merit", tags: ["merit"], deadline: "2025-06-01", applyURL: "https://www.kpkscholarships.com" },
-            { id: 12, name: "NUST Financial Aid Scholarship", funder: "NUST University", amount: "25–100% tuition waiver", type: "need-merit", tags: ["need-merit"], deadline: "2025-07-15", applyURL: "https://www.nust.edu.pk" },
-            { id: 13, name: "Commonwealth Scholarship (Pakistan)", funder: "Commonwealth (UK)", amount: "Full funding (UK study)", type: "merit", tags: ["international", "merit"], deadline: "2025-10-15", applyURL: "https://cscuk.fcdo.gov.uk/apply/" },
-            { id: 14, name: "Fulbright Pakistan Scholarship", funder: "US Embassy / USEFP", amount: "Full funding (USA study)", type: "merit", tags: ["international", "merit"], deadline: "2025-05-15", applyURL: "https://www.usefpakistan.org" },
-            { id: 15, name: "Dawood Global Foundation Scholarship", funder: "Dawood Foundation", amount: "PKR 60K–120K/year", type: "need-merit", tags: ["need-merit"], deadline: "2025-04-01", applyURL: "https://www.dawoodglobal.com/foundation" },
-            // Add a mock expired one for testing display
-            { id: 16, name: "Past Year Endowment Grant", funder: "Test Funder", amount: "PKR 20,000", type: "merit", tags: ["merit"], deadline: "2023-12-31", applyURL: "#" }
+            { id: 1, name: "HEC Need-Based Scholarship", funder: "Higher Education Commission (HEC)", amount: "PKR 40,000–80,000/year", type: "need-based", tags: ["hec", "need-based"], deadline: "2026-03-31", applyURL: "https://www.hec.gov.pk/english/scholarshipsgrants/Pages/NBS.aspx" },
+            { id: 2, name: "HEC Merit Scholarship (USEFP)", funder: "HEC / USEFP", amount: "PKR 20,000–50,000/semester", type: "merit", tags: ["hec", "merit"], deadline: "2026-04-15", applyURL: "https://www.hec.gov.pk" },
+            { id: 3, name: "Punjab Educational Endowment Fund (PEEF)", funder: "Government of Punjab", amount: "PKR 30,000–60,000/year", type: "need-based", tags: ["need-based"], deadline: "2026-05-01", applyURL: "https://peef.org.pk" },
+            { id: 4, name: "Sindh Education Foundation Scholarship", funder: "Government of Sindh", amount: "PKR 25,000–45,000/year", type: "need-based", tags: ["need-based"], deadline: "2026-04-30", applyURL: "https://sef.org.pk" },
+            { id: 5, name: "PM's Youth Business & Agriculture Loan", funder: "Government of Pakistan", amount: "PKR 100K–500K (loan)", type: "loan", tags: ["loan"], deadline: "2026-06-30", applyURL: "https://pmyp.gov.pk" },
+            { id: 6, name: "Aga Khan Foundation Scholarship", funder: "Aga Khan Foundation", amount: "Full tuition + stipend", type: "need-merit", tags: ["international", "need-merit"], deadline: "2026-03-15", applyURL: "https://www.akdn.org" },
+            { id: 7, name: "Ehsaas Undergraduate Scholarship", funder: "Government of Pakistan", amount: "PKR 20,000/sem + acc", type: "need-based", tags: ["need-based"], deadline: "2026-08-01", applyURL: "https://ehsaas.nadra.gov.pk" },
+            { id: 8, name: "Balochistan Educational Scholarship", funder: "Gov of Balochistan", amount: "PKR 30,000–70,000/year", type: "need-based", tags: ["need-based"], deadline: "2026-05-15", applyURL: "https://www.balochistan.gov.pk" },
+            { id: 9, name: "LUMS National Outreach Program", funder: "LUMS University", amount: "Full tuition + laptop", type: "need-based", tags: ["need-based"], deadline: "2026-02-28", applyURL: "https://nop.lums.edu.pk" },
+            { id: 10, name: "IBA Karachi Need-Based Scholarship", funder: "IBA Karachi", amount: "50–100% tuition waiver", type: "need-based", tags: ["need-based"], deadline: "2026-03-20", applyURL: "https://www.iba.edu.pk/financial_aid.php" },
+            { id: 11, name: "KPK Higher Education Scholarship", funder: "Government of KPK", amount: "PKR 30,000–60,000/year", type: "merit", tags: ["merit"], deadline: "2026-06-01", applyURL: "https://www.kpkscholarships.com" },
+            { id: 12, name: "NUST Financial Aid Scholarship", funder: "NUST University", amount: "25–100% tuition waiver", type: "need-merit", tags: ["need-merit"], deadline: "2026-07-15", applyURL: "https://www.nust.edu.pk" },
+            { id: 13, name: "Commonwealth Scholarship (Pakistan)", funder: "Commonwealth (UK)", amount: "Full funding (UK study)", type: "merit", tags: ["international", "merit"], deadline: "2026-10-15", applyURL: "https://cscuk.fcdo.gov.uk/apply/" },
+            { id: 14, name: "Fulbright Pakistan Scholarship", funder: "US Embassy / USEFP", amount: "Full funding (USA study)", type: "merit", tags: ["international", "merit"], deadline: "2026-05-15", applyURL: "https://www.usefpakistan.org" },
+            { id: 15, name: "Dawood Global Foundation Scholarship", funder: "Dawood Foundation", amount: "PKR 60K–120K/year", type: "need-merit", tags: ["need-merit"], deadline: "2026-04-01", applyURL: "https://www.dawoodglobal.com/foundation" }
         ];
 
         function getDaysRemaining(deadlineStr) {
