@@ -118,7 +118,12 @@ To keep this tool 100% free for students, the platform is designed to be support
 - [x] Build all 8 pages
 - [x] Add 15 scholarships to database
 - [x] Deploy to GitHub Pages
-- [x] Fix navbar mobile bug
+- [x] Professional file structure
+- [x] Fix navbar mobile toggle
+- [x] Add dark/light mode toggle
+- [x] Add branded favicon
+- [x] Add SEO meta tags and keywords
+- [x] Create sitemap.xml and robots.txt
 - [ ] Submit to Google Search Console
 - [ ] Apply for Google AdSense
 - [ ] Reach 100 daily visitors
