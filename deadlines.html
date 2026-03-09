@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <script src="assets/js/theme.js"></script>
     <meta charset="UTF-8">
@@ -8,24 +7,22 @@
     <meta name="description" content="Track upcoming scholarship deadlines in Pakistan. Get alerts before HEC, provincial, and international scholarship applications close.">
     <meta property="og:url" content="https://mustafa-shah-tech.github.io/student-finance-hub/deadlines.html">
     <title>Deadline Tracker - Pakistan Student Finance Hub</title>
-    <!-- Favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size=''90''>🎓</text></svg>">
+
+        <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+    <meta name="theme-color" content="#1A56A0">
 
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@600;700&display=swap"
         rel="stylesheet">
-
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
         <!-- Shared Styles -->
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/components.css">
 </head>
-
 <body>
-
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
             <a class="navbar-brand logo" href="index.html">PakStudentFinance</a>
@@ -50,12 +47,10 @@
             </div>
         </div>
     </nav>
-
     <!-- ADSENSE SLOT: Replace with your AdSense code after approval -->
     <div class="container">
         <div class="adsense-placeholder" style="margin: 30px auto 20px auto; padding: 25px 20px;">Advertisement</div>
     </div>
-
     <div class="container mb-5">
         <div class="row align-items-center mb-4">
             <div class="col-md-8">
@@ -66,7 +61,6 @@
                 <a href="#alerts" class="btn btn-outline-primary">Get Email Alerts</a>
             </div>
         </div>
-
         <div class="d-flex flex-wrap gap-2 mb-4" id="filters">
             <button class="filter-btn active" data-filter="all">All</button>
             <button class="filter-btn" data-filter="merit">Merit-Based</button>
@@ -74,11 +68,9 @@
             <button class="filter-btn" data-filter="loan">Loans</button>
             <button class="filter-btn" data-filter="international">International</button>
         </div>
-
         <div id="active-deadlines">
             <!-- Active scholarships populated via JS -->
         </div>
-
         <div class="accordion mt-5" id="expiredAccordion">
             <div class="accordion-item" style="border: 1px solid var(--border-color); border-radius: 8px;">
                 <h2 class="accordion-header">
@@ -95,13 +87,11 @@
                 </div>
             </div>
         </div>
-
         <!-- Email Signup Section -->
         <div class="email-signup mt-5" id="alerts">
             <h3 class="mb-2">Never Miss a Deadline</h3>
             <p class="text-secondary mb-4 mx-auto" style="max-width: 600px;">Join our mailing list and we'll send you an
                 alert 7 days before major Pakistan scholarship deadlines approach.</p>
-
             <!-- Integration Comment: Use Mailchimp Embed Form or Tally.so iframe here -->
             <form id="subscribe-form" class="mx-auto d-flex flex-column flex-sm-row gap-2 justify-content-center"
                 style="max-width: 500px;"
@@ -114,12 +104,10 @@
                 scholarships are added.</div>
         </div>
     </div>
-
     <!-- ADSENSE SLOT: Replace with your AdSense code after approval -->
     <div class="container">
         <div class="adsense-placeholder" style="margin: 10px auto 40px auto; padding: 25px 20px;">Advertisement</div>
     </div>
-
     <footer>
         <div class="container">
             <div class="row gy-4">
@@ -149,10 +137,8 @@
             </div>
         </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/scholarships-data.js"></script>
     <script src="assets/js/deadlines.js"></script>
 </body>
-
 </html>
