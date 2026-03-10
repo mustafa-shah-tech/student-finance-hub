@@ -83,3 +83,4 @@ document.getElementById('reset-filters').addEventListener('click', () => {
 
 // initial draw
 renderGrid();
+

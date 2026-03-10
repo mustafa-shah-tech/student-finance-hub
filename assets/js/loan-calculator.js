@@ -83,3 +83,4 @@ presetSelect.addEventListener('change', (e) => {
 
 // Initialize
 calculateEMI();
+

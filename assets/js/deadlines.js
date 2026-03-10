@@ -101,3 +101,4 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
 
 // Initialize
 renderList();
+

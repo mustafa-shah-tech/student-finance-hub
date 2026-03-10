@@ -131,3 +131,4 @@ function renderResults(eligible, border, cgpa) {
 
     container.appendChild(wrapper);
 }
+

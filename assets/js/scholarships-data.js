@@ -260,3 +260,4 @@ const scholarships = [
         tags: ["private", "need-merit", "undergraduate"]
     }
 ];
+

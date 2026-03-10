@@ -38,3 +38,4 @@ window.onload = function () {
         container.appendChild(col);
     });
 };
+

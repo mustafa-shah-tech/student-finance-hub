@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>PakStudentFinance</h1>
+  <h1>Student Finance & Scholarship</h1>
   <p><strong>Pakistan Student Finance & Scholarship Hub</strong></p>
 
   [![Live Site](https://img.shields.io/badge/Live-Site-success?style=for-the-badge&logo=vercel)](https://mustafa-shah-tech.github.io/student-finance-hub)
@@ -14,7 +14,7 @@
 
 ## Overview
 
-PakStudentFinance is a free, ad-supported web utility platform designed specifically for Pakistani students. Every year, billions of rupees in scholarships go unawarded because students simply do not know they exist, or find the eligibility criteria too confusing to navigate. This platform was built to solve that problem.
+Student Finance & Scholarship is a free, ad-supported web utility platform designed specifically for Pakistani students. Every year, billions of rupees in scholarships go unawarded because students simply do not know they exist, or find the eligibility criteria too confusing to navigate. This platform was built to solve that problem.
 
 We provide a centralized hub for discovering scholarships, grants, and education loans available across all provinces in Pakistan. With built-in tools like an eligibility checker, loan EMI calculator, CGPA converter, and deadline tracker, students can easily manage their higher education financing.
 
@@ -146,3 +146,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Disclaimer
 
 This platform provides general information only. While we strive to keep details accurate and up-to-date, scholarship availability, deadlines, and criteria are subject to change. Users should always verify all terms, conditions, and eligibility details directly with the respective scholarship providers or financial institutions before applying.
+
